@@ -28,8 +28,8 @@ import SDPUtil from '../xmpp/SDPUtil';
 import * as SignalingEvents from '../../service/RTC/SignalingEvents';
 
 const logger = getLogger(__filename);
-const MAX_BITRATE = 250000000; //2500000 * 100
-const DESKSTOP_SHARE_RATE = 500000;
+const MAX_BITRATE = 250000; //2500000
+const DESKSTOP_SHARE_RATE = 50000000; //500000 * 100
 
 /* eslint-disable max-params */
 
