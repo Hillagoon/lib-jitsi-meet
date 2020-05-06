@@ -23,7 +23,7 @@ const kSimulcastFormats = [
         height: 1080,
         layers: 3,
         max: 500000,
-        target: 4000,
+        target: 40000,
         min: 800 },
     { width: 1280,
         height: 720,
