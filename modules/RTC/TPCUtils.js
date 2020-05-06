@@ -44,7 +44,7 @@ export class TPCUtils {
             },
             {
                 active: true,
-                maxBitrate: browser.isFirefox() ? 200000 : 2500000,
+                maxBitrate: browser.isFirefox() ? 200000 : 250000000,
                 rid: SIM_LAYER_3_RID,
                 scaleResolutionDownBy: browser.isFirefox() ? 4.0 : 1.0
             }
